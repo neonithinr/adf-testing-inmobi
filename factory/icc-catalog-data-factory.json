@@ -1,0 +1,9 @@
+{
+	"name": "icc-catalog-data-factory",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dbbb2a94-3090-4905-8281-afb5f383fad7",
+		"tenantId": "89359cf4-9e60-4099-80c4-775a0cfe27a7"
+	}
+}

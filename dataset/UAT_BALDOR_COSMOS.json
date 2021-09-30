@@ -1,0 +1,16 @@
+{
+	"name": "UAT_BALDOR_COSMOS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UAT_COSMOS_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "catalog-retailer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

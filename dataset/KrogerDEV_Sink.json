@@ -1,0 +1,16 @@
+{
+	"name": "KrogerDEV_Sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDb_DEV_SINK",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "catalog-kroger"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

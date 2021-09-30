@@ -1,0 +1,16 @@
+{
+	"name": "UAT_JTV_SINK",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "UAT_COSMOS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "catalog-jtv"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

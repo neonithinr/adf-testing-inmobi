@@ -1,0 +1,47 @@
+{
+	"name": "JTV_DEV_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "JTV_DEV_DATABASE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {
+			"type": "object",
+			"properties": {
+				"productId": {
+					"type": "string"
+				},
+				"title": {
+					"type": "string"
+				},
+				"description": {
+					"type": "string"
+				},
+				"category": {
+					"type": "string"
+				},
+				"subCategory": {
+					"type": "string"
+				},
+				"brand": {
+					"type": "string"
+				},
+				"price": {
+					"type": "string"
+				},
+				"imageUrl": {
+					"type": "string"
+				},
+				"productUrl": {
+					"type": "string"
+				}
+			}
+		},
+		"typeProperties": {
+			"collectionName": "catalog-jtv"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "SHIPT_DEV_COSMOS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CosmosDb_DEV_SINK",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "catalog-shipt"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,16 @@
+{
+	"name": "CosmosDbSinkJTVContainer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "JTV_DEV_FINAL_LINKED_SERVICE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "catalog-jtv"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

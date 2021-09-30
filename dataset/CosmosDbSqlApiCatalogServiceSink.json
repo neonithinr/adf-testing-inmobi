@@ -1,0 +1,16 @@
+{
+	"name": "CosmosDbSqlApiCatalogServiceSink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DEV_COSMOS_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "CosmosDbSqlApiCollection",
+		"schema": {},
+		"typeProperties": {
+			"collectionName": "catalog-retailer"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
